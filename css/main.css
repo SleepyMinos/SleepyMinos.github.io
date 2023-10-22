@@ -1756,6 +1756,9 @@ pre code {
 .post-body {
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
+  margin-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 @media (min-width: 1200px) {
   .post-body {
@@ -2393,7 +2396,7 @@ mark.search-keyword {
 }
 header.header {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 8px 8px 8px 8px;
   box-shadow: initial;
 }
 @media (max-width: 991px) {
@@ -2430,7 +2433,7 @@ header.header {
   }
 }
 .main-inner {
-  border-radius: initial;
+  border-radius: 8px 8px 8px 8px;
   box-sizing: border-box;
   width: calc(100% - 252px);
 }
@@ -2571,7 +2574,7 @@ header.header {
 }
 .sidebar-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 8px;
   box-shadow: initial;
   box-sizing: border-box;
   color: var(--text-color);
@@ -2643,4 +2646,40 @@ header.header {
   .pagination {
     margin-bottom: 10px;
   }
+}
+body {
+  background: url("/images/background_1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.main-inner > .sub-menu,
+.main-inner > .post-block,
+.main-inner > .tabs-comment,
+.main-inner > .comments,
+.main-inner > .pagination {
+  background: rgba(245,245,245,0.42);
+}
+body {
+  color: #000;
+}
+.posts-expand .post-title-link {
+  color: #000;
+}
+.posts-expand .post-meta-container {
+  color: #800;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.9;
+}
+.main-inner {
+  background-color: rgba(255,255,255,0.5);
+  padding: 0px 0px 0px 0px;
 }
