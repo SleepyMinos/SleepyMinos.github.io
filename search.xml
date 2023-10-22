@@ -33,7 +33,7 @@
 <p>三个***包裹字是加粗和斜体<br><em><strong>加粗和斜体效果</strong></em></p>
 <h3 id="文字划线"><a href="#文字划线" class="headerlink" title="文字划线"></a>文字划线</h3><p>两个波浪线包裹中间是划线<br><del>划线</del></p>
 <h3 id="改变文字大小和颜色"><a href="#改变文字大小和颜色" class="headerlink" title="改变文字大小和颜色"></a>改变文字大小和颜色</h3><p>改变文字大小<br><code>&lt;font size=&quot;&quot;&gt;内容&lt;/font&gt;</code><br><font size="1">只能选1到7寸文字</font></p>
-<p>改变文字颜色<br><code>&lt;font color=&quot;&quot;&gt;内容&lt;/font&gt;</code><br><font color="red">改文字颜色<font></p>
+<p>改变文字颜色<br><code>&lt;font color=&quot;&quot;&gt;内容&lt;/font&gt;</code><br><font color="red">改文字颜色</font></p>
 <h2 id="二、代码块"><a href="#二、代码块" class="headerlink" title="二、代码块"></a>二、代码块</h2><ul>
 <li><p>反引号包裹文字是行内代码引用<br><code>println(&quot;Hello World&quot;)</code></p>
 </li>
@@ -130,7 +130,7 @@
 <p>希望以后能找到一个早上不用早起晚上不用熬夜的工作还能月入5千人民币。</p>
 <h2 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h2><p>最近在练习用MD写东西Obsidian连了Onedrive还挺好用,不过我是不打算放任何图片进Obsidian的因为不能在同一个文档里以后要整理会很麻烦。我已经把所有工作和私人的文字格式的东西都整理进Obsidian里面了。</p>
 <p>之前用Notion虽然功能多但是我只用表格和文字,表格要向右划非常麻烦不如Excel我就不用了;现在表格都在Onedrive里用Excel存。<br>而且我也担心哪天Notion突然把导出功能关了我本地都没有备份。</p>
-<p>这就是为什么我转用Obsidian。我感觉MD格式比较通用不会像印象笔记或者Onenote一样以后迁徙数据麻烦,而且语法也挺简单的就是低配html。<br><a href="Mark%20Down%20%E8%AF%AD%E6%B3%95">MD语法</a></p>
+<p>这就是为什么我转用Obsidian。我感觉MD格式比较通用不会像印象笔记或者Onenote一样以后迁徙数据麻烦,而且语法也挺简单的就是低配html。<br><a href="https://sleepyminos.github.io/2023/10/22/%E5%8F%82%E8%80%83/Mark%20Down%20%E8%AF%AD%E6%B3%95/">Mark Down 语法 | 沉睡牛头人博客 (sleepyminos.github.io)</a></p>
 ]]></content>
       <categories>
         <category>想法</category>
