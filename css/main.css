@@ -1221,6 +1221,7 @@ pre code {
   border: 1px solid #eee;
   max-width: 120px;
   padding: 2px;
+  border-radius: 50%;
 }
 .site-author-name {
   color: var(--text-color);
@@ -1756,7 +1757,6 @@ pre code {
 .post-body {
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
-  margin-left: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }

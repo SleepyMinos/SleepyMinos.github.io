@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Mark Down 语法</title>
-    <url>/2023/10/22/%E5%8F%82%E8%80%83/Mark%20Down%20%E8%AF%AD%E6%B3%95/</url>
+    <url>/2023/10/25/%E5%8F%82%E8%80%83/Mark%20Down%20%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>输入三个*或-后换行是分割线</p>
 <hr>
 <h2 id="一、字体处理"><a href="#一、字体处理" class="headerlink" title="一、字体处理"></a>一、字体处理</h2><h3 id="斜体和加粗"><a href="#斜体和加粗" class="headerlink" title="斜体和加粗"></a>斜体和加粗</h3><p>*包裹字是斜体<br><em>斜体字效果</em></p>
@@ -78,24 +78,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于自我看法</title>
-    <url>/2023/10/14/%E6%83%B3%E6%B3%95/%E5%85%B3%E4%BA%8E%E8%87%AA%E6%88%91%E7%9C%8B%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="比特币"><a href="#比特币" class="headerlink" title="比特币"></a>比特币</h4><p>今天在想要不要买点比特币，现在价格$28000。初步想法是当低于2w美元价格的时候每个月买$300。然后接近1w的时候每个月$600。保证总投入不超过$5000。到明年七月如果赚了就出清，亏了就继续持有。这样投资计划损失范围我勉强能接受。</p>
-<h4 id="NGA"><a href="#NGA" class="headerlink" title="NGA"></a>NGA</h4><h5 id="心态"><a href="#心态" class="headerlink" title="心态"></a>心态</h5><p><a href="https://bbs.nga.cn/read.php?tid=38025911&_fp=11&page=6">(树洞)有没有人生导师 NGA玩家社区 P6</a><br>这个人心里想的和我来美国以后的想法一致。我有很多不想做的事情，但是给我一段闲着的时间，我却并没有什么想做的事情。经常躺在床上希望一天很快过去，就这样日复一日。</p>
-<h5 id="心学"><a href="#心学" class="headerlink" title="心学"></a>心学</h5><p><a href="https://bbs.nga.cn/read.php?tid=38005661">昨天晚上想了一些事，想通了 NGA玩家社区</a><br>看论坛看到了关于心学的知识。我们对一切的评价都是基于好恶的，而我们对事物的看法又是不客观的，也许有些人赞同的东西对他自己和世界是消极的，比如自残，吸毒，赌博，抽烟，喝酒等等会分泌一定的多巴胺，让人欲罢不能。</p>
-<p>当我们看到美景的时候觉得开心，看到丑陋的东西感觉厌恶。美景不一定真的美，丑陋的东西也不一定丑陋。我们应该以主观的视角活着还是以客观的视角活着？</p>
-<p>客观视角定义：减少对世界的消耗，增加自身的生存概率。</p>
-<h4 id="客观视角"><a href="#客观视角" class="headerlink" title="客观视角"></a>客观视角</h4><p>如果我的生存会给予其他生命损害，我是否还应该活着？</p>
-<h4 id="主观视角"><a href="#主观视角" class="headerlink" title="主观视角"></a>主观视角</h4><p>如果我的好恶定义随着时间的推移发生了转变，我是谁？谁是我？</p>
-]]></content>
-      <categories>
-        <category>想法</category>
-      </categories>
-      <tags>
-        <tag>想法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>命运石之门</title>
     <url>/2023/10/13/%E6%83%B3%E6%B3%95/%E5%91%BD%E8%BF%90%E7%9F%B3%E4%B9%8B%E9%97%A8/</url>
     <content><![CDATA[<h4 id="命运石之门"><a href="#命运石之门" class="headerlink" title="命运石之门"></a>命运石之门</h4><p>今天把命运石之门第一部看完了。大体理解有些细节不大明白。</p>
@@ -120,6 +102,21 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo Next主题改变文字边距</title>
+    <url>/2023/10/22/%E5%8F%82%E8%80%83/Hexo%20Next%E4%B8%BB%E9%A2%98%20%E6%94%B9%E5%8F%98%E6%96%87%E5%AD%97%E8%BE%B9%E8%B7%9D/</url>
+    <content><![CDATA[<h4 id="改变页面内容文字间距"><a href="#改变页面内容文字间距" class="headerlink" title="改变页面内容文字间距"></a>改变页面内容文字间距</h4><p>文件位置在[blog]&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_common&#x2F;components&#x2F;post.styl<br>在.post-body里面加上margin-left, margin-right就可以改变左右边距了。</p>
+<blockquote>
+<p>代码如下</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.post-body</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: $font-family-posts;</span><br><span class="line">  <span class="attribute">word-wrap</span>(); </span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="number">20px</span>; //左边距</span><br><span class="line">  <span class="attribute">margin-right</span>: <span class="number">20px</span>;//右边距</span><br><span class="line">  +desktop-large() &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: $font-size-large;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>参考</category>
+      </categories>
+      <tags>
+        <tag>参考</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第一天写日记</title>
     <url>/2023/09/21/%E6%83%B3%E6%B3%95/%E7%AC%AC%E4%B8%80%E5%A4%A9%E5%86%99%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="日记"><a href="#日记" class="headerlink" title="日记"></a>日记</h2><p>第一天写日记练练手,虽然正经人不写日记但上班摸鱼不写东西刷手机也没啥意思。</p>
@@ -137,6 +134,72 @@
       </categories>
       <tags>
         <tag>想法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于自我看法</title>
+    <url>/2023/10/14/%E6%83%B3%E6%B3%95/%E5%85%B3%E4%BA%8E%E8%87%AA%E6%88%91%E7%9C%8B%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="比特币"><a href="#比特币" class="headerlink" title="比特币"></a>比特币</h4><p>今天在想要不要买点比特币，现在价格$28000。初步想法是当低于2w美元价格的时候每个月买$300。然后接近1w的时候每个月$600。保证总投入不超过$5000。到明年七月如果赚了就出清，亏了就继续持有。这样投资计划损失范围我勉强能接受。</p>
+<h4 id="NGA"><a href="#NGA" class="headerlink" title="NGA"></a>NGA</h4><h5 id="心态"><a href="#心态" class="headerlink" title="心态"></a>心态</h5><p><a href="https://bbs.nga.cn/read.php?tid=38025911&_fp=11&page=6">(树洞)有没有人生导师 NGA玩家社区 P6</a><br>这个人心里想的和我来美国以后的想法一致。我有很多不想做的事情，但是给我一段闲着的时间，我却并没有什么想做的事情。经常躺在床上希望一天很快过去，就这样日复一日。</p>
+<h5 id="心学"><a href="#心学" class="headerlink" title="心学"></a>心学</h5><p><a href="https://bbs.nga.cn/read.php?tid=38005661">昨天晚上想了一些事，想通了 NGA玩家社区</a><br>看论坛看到了关于心学的知识。我们对一切的评价都是基于好恶的，而我们对事物的看法又是不客观的，也许有些人赞同的东西对他自己和世界是消极的，比如自残，吸毒，赌博，抽烟，喝酒等等会分泌一定的多巴胺，让人欲罢不能。</p>
+<p>当我们看到美景的时候觉得开心，看到丑陋的东西感觉厌恶。美景不一定真的美，丑陋的东西也不一定丑陋。我们应该以主观的视角活着还是以客观的视角活着？</p>
+<p>客观视角定义：减少对世界的消耗，增加自身的生存概率。</p>
+<h4 id="客观视角"><a href="#客观视角" class="headerlink" title="客观视角"></a>客观视角</h4><p>如果我的生存会给予其他生命损害，我是否还应该活着？</p>
+<h4 id="主观视角"><a href="#主观视角" class="headerlink" title="主观视角"></a>主观视角</h4><p>如果我的好恶定义随着时间的推移发生了转变，我是谁？谁是我？</p>
+]]></content>
+      <categories>
+        <category>想法</category>
+      </categories>
+      <tags>
+        <tag>想法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>比特币的价值</title>
+    <url>/2023/10/14/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9A%84%E4%BB%B7%E5%80%BC/</url>
+    <content><![CDATA[<h4 id="关于比特币"><a href="#关于比特币" class="headerlink" title="关于比特币"></a>关于比特币</h4><p>我一直在想一个问题，决定一个东西价格的是它本身物理的功能吗？各种工艺品，装饰似乎除了取悦我们并没有什么作用。我们买的股票，理论上是公司权利的一部分，像比特币一样不断分隔，到我们100刀能买到手的时候实际上已经不足以对公司产生影响。看不见摸不着，打印出来一份持有书似乎是它唯一的作用。也许我们可以期望有人想对公司作出影响批量买入我们所持有的微量股票，但除此以外大多数时候它们只是躺在账号上的数字。</p>
+<p>我们所持有的现金在没有政府认可或者政府失能时就只能当纸用。比特币所缺少的其实是认同，随着更多人的认同它就会拥有价值。就像我玩手游充钱抽角色，实际上并没有什么实体被获得，当我弃坑不玩的一刻价值也基本归零。那我为什么充钱？我想人心理上的体验也随着主观评价有所标价。</p>
+<p>本来我一直觉得现金因为有政府背书更有价值，但最近几年随着中国断卡行动的开展让我越来越担忧。会不会有一天我多年的积蓄突然被宣布牵扯到犯罪活动全部被冻结？当战争发生的时候政府会不会征用我的大部分财产强制购买某种债券并且设置遥不可及的还款条件？</p>
+<p>我不是说比特币就比现金更加安全，恰恰相反，比特币的风险比现实货币还要高，存在中心化交易所交易所可能倒闭，存在个人钱包可能被黑客盗取或者自己搞丢私钥（似乎现金也有类似风险）。比特币的去中心化让每个人都是自己的负责人，风险自担无人追责。</p>
+<p>但是我认为应该持有部分比特币来防止现实生活中出现突发事件的窘境。例如自己违法犯罪被没收所有财产，断卡行动把交易额限制到百位数不可申诉。</p>
+<p>比特币的价值由大多数人的主观思想决定，并且可受操纵。它就像一个不倒翁，有时候大家都觉得它要倒，他的价值就下降，反之提升。只要还有人留在场看它表演，他就永远有价值。</p>
+<h4 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h4><p>我认为比特币最大可能作为货币应用的场景是虚拟支付。买游戏，打赏主播，看电影等完全受主观评价决定价值的付费活动。人们可以完全不接触别的货币就只用比特币进行娱乐。但是比特币的手续费还是有点高了，据我所知小额支付在<strong>0.0001-0.0005</strong>比特币，也许会有别的交易货币用更低的的手续费取代比特币作为货币的功能。</p>
+<h4 id="作为贵金属等价物"><a href="#作为贵金属等价物" class="headerlink" title="作为贵金属等价物"></a>作为贵金属等价物</h4><p>比特币本身虚无缥缈，除了我看见区块链上写着的我的地址有多少比特币啥也没有。但是，就像之前我对手游的类比，一个物体的价值有时候并不需要它存在物理的作用。当它才能够从一文不值慢慢涨起来的时候，它就已经存在价值了，而这个价值是人的共识。会有很多想一夜暴富的韭菜源源不断地接盘让他的价值始终保持在高位，就像我。</p>
+<h4 id="价格"><a href="#价格" class="headerlink" title="价格"></a>价格</h4><p>比特币的价格注定了会不断浮动，直到有稳定的虚拟货币用真正的交易功能（低廉手续费）取代它，到那时候它的价值将趋于稳定并且成为新的虚拟货币的锚点。我并不知它最后能值多少钱，但我知道我应该持有一些（一些：不高于个人存款的一半）。</p>
+<h4 id="关于合约"><a href="#关于合约" class="headerlink" title="关于合约"></a>关于合约</h4><p>我打小就不是个聪明人，没有额外帮助我的智力水平是低于平均值的。合约这东西肯定能有概率让我资产翻倍，但是这会让我处于归零的风险中。碰比特币我还能吹吹分摊现金的风险，碰合约我就是纯纯赌博了。</p>
+]]></content>
+      <categories>
+        <category>虚拟货币</category>
+      </categories>
+      <tags>
+        <tag>虚拟货币</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物流分拣</title>
+    <url>/2023/10/01/%E6%9C%AA%E6%9D%A5%E5%B7%A5%E4%BD%9C%E9%80%89%E6%8B%A9/%E7%89%A9%E6%B5%81%E5%88%86%E6%8B%A3/</url>
+    <content><![CDATA[<h3 id="好处"><a href="#好处" class="headerlink" title="好处"></a>好处</h3><ul>
+<li><p>不用和人说话</p>
+</li>
+<li><p>不用低头</p>
+</li>
+<li><p>工资挺高</p>
+<h3 id="坏处"><a href="#坏处" class="headerlink" title="坏处"></a>坏处</h3></li>
+<li><p>12小时时长太长</p>
+</li>
+<li><p>特别累</p>
+<h3 id="行动"><a href="#行动" class="headerlink" title="行动"></a>行动</h3></li>
+<li><p>去试试日结</p>
+</li>
+<li><p>躺平只有双十一，六一八去赚高工价</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>未来工作选择</category>
+      </categories>
+      <tags>
+        <tag>未来工作选择</tag>
       </tags>
   </entry>
   <entry>
@@ -177,54 +240,6 @@
       </tags>
   </entry>
   <entry>
-    <title>物流分拣</title>
-    <url>/2023/10/01/%E6%9C%AA%E6%9D%A5%E5%B7%A5%E4%BD%9C%E9%80%89%E6%8B%A9/%E7%89%A9%E6%B5%81%E5%88%86%E6%8B%A3/</url>
-    <content><![CDATA[<h3 id="好处"><a href="#好处" class="headerlink" title="好处"></a>好处</h3><ul>
-<li><p>不用和人说话</p>
-</li>
-<li><p>不用低头</p>
-</li>
-<li><p>工资挺高</p>
-<h3 id="坏处"><a href="#坏处" class="headerlink" title="坏处"></a>坏处</h3></li>
-<li><p>12小时时长太长</p>
-</li>
-<li><p>特别累</p>
-<h3 id="行动"><a href="#行动" class="headerlink" title="行动"></a>行动</h3></li>
-<li><p>去试试日结</p>
-</li>
-<li><p>躺平只有双十一，六一八去赚高工价</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>未来工作选择</category>
-      </categories>
-      <tags>
-        <tag>未来工作选择</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>比特币的价值</title>
-    <url>/2023/10/14/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/%E6%AF%94%E7%89%B9%E5%B8%81%E7%9A%84%E4%BB%B7%E5%80%BC/</url>
-    <content><![CDATA[<h4 id="关于比特币"><a href="#关于比特币" class="headerlink" title="关于比特币"></a>关于比特币</h4><p>我一直在想一个问题，决定一个东西价格的是它本身物理的功能吗？各种工艺品，装饰似乎除了取悦我们并没有什么作用。我们买的股票，理论上是公司权利的一部分，像比特币一样不断分隔，到我们100刀能买到手的时候实际上已经不足以对公司产生影响。看不见摸不着，打印出来一份持有书似乎是它唯一的作用。也许我们可以期望有人想对公司作出影响批量买入我们所持有的微量股票，但除此以外大多数时候它们只是躺在账号上的数字。</p>
-<p>我们所持有的现金在没有政府认可或者政府失能时就只能当纸用。比特币所缺少的其实是认同，随着更多人的认同它就会拥有价值。就像我玩手游充钱抽角色，实际上并没有什么实体被获得，当我弃坑不玩的一刻价值也基本归零。那我为什么充钱？我想人心理上的体验也随着主观评价有所标价。</p>
-<p>本来我一直觉得现金因为有政府背书更有价值，但最近几年随着中国断卡行动的开展让我越来越担忧。会不会有一天我多年的积蓄突然被宣布牵扯到犯罪活动全部被冻结？当战争发生的时候政府会不会征用我的大部分财产强制购买某种债券并且设置遥不可及的还款条件？</p>
-<p>我不是说比特币就比现金更加安全，恰恰相反，比特币的风险比现实货币还要高，存在中心化交易所交易所可能倒闭，存在个人钱包可能被黑客盗取或者自己搞丢私钥（似乎现金也有类似风险）。比特币的去中心化让每个人都是自己的负责人，风险自担无人追责。</p>
-<p>但是我认为应该持有部分比特币来防止现实生活中出现突发事件的窘境。例如自己违法犯罪被没收所有财产，断卡行动把交易额限制到百位数不可申诉。</p>
-<p>比特币的价值由大多数人的主观思想决定，并且可受操纵。它就像一个不倒翁，有时候大家都觉得它要倒，他的价值就下降，反之提升。只要还有人留在场看它表演，他就永远有价值。</p>
-<h4 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h4><p>我认为比特币最大可能作为货币应用的场景是虚拟支付。买游戏，打赏主播，看电影等完全受主观评价决定价值的付费活动。人们可以完全不接触别的货币就只用比特币进行娱乐。但是比特币的手续费还是有点高了，据我所知小额支付在<strong>0.0001-0.0005</strong>比特币，也许会有别的交易货币用更低的的手续费取代比特币作为货币的功能。</p>
-<h4 id="作为贵金属等价物"><a href="#作为贵金属等价物" class="headerlink" title="作为贵金属等价物"></a>作为贵金属等价物</h4><p>比特币本身虚无缥缈，除了我看见区块链上写着的我的地址有多少比特币啥也没有。但是，就像之前我对手游的类比，一个物体的价值有时候并不需要它存在物理的作用。当它才能够从一文不值慢慢涨起来的时候，它就已经存在价值了，而这个价值是人的共识。会有很多想一夜暴富的韭菜源源不断地接盘让他的价值始终保持在高位，就像我。</p>
-<h4 id="价格"><a href="#价格" class="headerlink" title="价格"></a>价格</h4><p>比特币的价格注定了会不断浮动，直到有稳定的虚拟货币用真正的交易功能（低廉手续费）取代它，到那时候它的价值将趋于稳定并且成为新的虚拟货币的锚点。我并不知它最后能值多少钱，但我知道我应该持有一些（一些：不高于个人存款的一半）。</p>
-<h4 id="关于合约"><a href="#关于合约" class="headerlink" title="关于合约"></a>关于合约</h4><p>我打小就不是个聪明人，没有额外帮助我的智力水平是低于平均值的。合约这东西肯定能有概率让我资产翻倍，但是这会让我处于归零的风险中。碰比特币我还能吹吹分摊现金的风险，碰合约我就是纯纯赌博了。</p>
-]]></content>
-      <categories>
-        <category>虚拟货币</category>
-      </categories>
-      <tags>
-        <tag>虚拟货币</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>虚拟货币为什么还没有普及</title>
     <url>/2023/10/18/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E6%B2%A1%E6%9C%89%E6%99%AE%E5%8F%8A/</url>
     <content><![CDATA[<h4 id="虚拟货币为什么还没有普及"><a href="#虚拟货币为什么还没有普及" class="headerlink" title="虚拟货币为什么还没有普及"></a>虚拟货币为什么还没有普及</h4><p>前天晚上买了500刀的Stella Lumens。说是可以更便宜和快速地链上支付，其实我觉得虚拟货币这么多年了还是没见到多少实际应用是一件非常离谱的事情。至少在我预见中各种手游氪金，买卖皮肤，观看影视作品的会员之类的没有实体的东西是可以用比特币交易的。然而实际上目前为止只有一些“数字藏品”，打金Web3游戏支持用虚拟货币支付。最关键的是每种游戏，数字藏品可能用的还是不同的币，而这些币的价值不比津巴布韦币高多少。如果没有一个通用的虚拟货币，又谈何保值，谈何捍卫权利？这些做游戏的，做数字藏品的公司不应该拥有自己的货币，他们把精力都放在了维护自己的货币上，我本来以为国家的信用货币在一定范围内能随便印已经很荒唐了，这些公司居然每个都想自己印刷货币。当它们倒闭的时候留下的也不过是一堆比纸还不值钱的狗屁货币。</p>
@@ -237,21 +252,6 @@
       </categories>
       <tags>
         <tag>虚拟货币</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo Next主题改变文字边距</title>
-    <url>/2023/10/22/%E5%8F%82%E8%80%83/Hexo%20Next%E4%B8%BB%E9%A2%98%20%E6%94%B9%E5%8F%98%E6%96%87%E5%AD%97%E8%BE%B9%E8%B7%9D/</url>
-    <content><![CDATA[<h4 id="改变页面内容文字间距"><a href="#改变页面内容文字间距" class="headerlink" title="改变页面内容文字间距"></a>改变页面内容文字间距</h4><p>文件位置在[blog]&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_common&#x2F;components&#x2F;post.styl<br>在.post-body里面加上margin-left, margin-right就可以改变左右边距了。</p>
-<blockquote>
-<p>代码如下</p>
-</blockquote>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.post-body</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: $font-family-posts;</span><br><span class="line">  <span class="attribute">word-wrap</span>(); </span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="number">20px</span>; //左边距</span><br><span class="line">  <span class="attribute">margin-right</span>: <span class="number">20px</span>;//右边距</span><br><span class="line">  +desktop-large() &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: $font-size-large;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>参考</category>
-      </categories>
-      <tags>
-        <tag>参考</tag>
       </tags>
   </entry>
 </search>
