@@ -1,20 +1,20 @@
 :root {
   --body-bg-color: #f5f7f9;
-  --content-bg-color: #fff;
-  --card-bg-color: #f5f5f5;
-  --text-color: #555;
+  --content-bg-color: #f4eeee;
+  --card-bg-color: #f4eeee;
+  --text-color: #1f1717;
   --blockquote-color: #666;
-  --link-color: #555;
-  --link-hover-color: #222;
+  --link-color: #800;
+  --link-hover-color: #fa7338;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
-  --menu-item-bg-color: #f5f5f5;
-  --theme-color: #222;
+  --menu-item-bg-color: #f4eeee;
+  --theme-color: #ce5a67;
   --btn-default-bg: #fff;
-  --btn-default-color: #555;
-  --btn-default-border-color: #555;
+  --btn-default-color: #1f1717;
+  --btn-default-border-color: #1f1717;
   --btn-default-hover-bg: #222;
   --btn-default-hover-color: #fff;
   --btn-default-hover-border-color: #222;
@@ -173,8 +173,8 @@ template {
   display: none;
 }
 ::selection {
-  background: #262a30;
-  color: #eee;
+  background: #ce5a67;
+  color: #fff;
 }
 html,
 body {
@@ -224,7 +224,7 @@ p {
   margin: 0 0 20px;
 }
 a {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #f4eeee;
   color: var(--link-color);
   cursor: pointer;
   outline: 0;
@@ -643,7 +643,7 @@ pre code {
   width: 100%;
 }
 .post-body .label {
-  color: #555;
+  color: #1f1717;
   padding: 0 2px;
 }
 .post-body .label.default {
@@ -2647,28 +2647,21 @@ header.header {
     margin-bottom: 10px;
   }
 }
-body {
-  background: url("/images/background_1.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
 .main-inner > .sub-menu,
 .main-inner > .post-block,
 .main-inner > .tabs-comment,
 .main-inner > .comments,
 .main-inner > .pagination {
-  background: rgba(245,245,245,0.42);
+  background: #f4eeee;
 }
 body {
-  color: #000;
+  color: #1f1717;
 }
 .posts-expand .post-title-link {
-  color: #000;
+  color: #800;
 }
 .posts-expand .post-meta-container {
-  color: #800;
+  color: #ce5a67;
 }
 .sidebar {
   opacity: 0.9;
@@ -2680,6 +2673,6 @@ body {
   opacity: 0.9;
 }
 .main-inner {
-  background-color: rgba(255,255,255,0.5);
+  background-color: #f4eeee;
   padding: 0px 0px 0px 0px;
 }
